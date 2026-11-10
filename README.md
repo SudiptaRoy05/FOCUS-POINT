@@ -1,4 +1,4 @@
-FocusPoint
+**FocusPoint**
 FocusPoint is a web-based photography marketplace developed as an undergraduate project and thesis. The platform is intended to bring photography buyers, photographers, and photography sellers together in one place.
 
 It provides a digital space where users can browse and purchase photographs, offer photographs for sale, and find or hire photographers. The project explores how a web application can support the discovery and exchange of photography-related services and digital content.
