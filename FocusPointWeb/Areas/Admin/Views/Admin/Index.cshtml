@@ -1,0 +1,73 @@
+﻿@model List<FocusPoint.Models.ViewModel.AdminVM>
+
+
+<title>User List</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f7f7f7;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    table {
+        width: 80%;
+        margin: 20px auto;
+        background-color: #fff;
+        border-collapse: collapse;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    table, th, td {
+        border: 1px solid #ddd;
+    }
+
+    th, td {
+        padding: 12px;
+        text-align: left;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    th {
+        background-color: #333;
+        color: #fff;
+    }
+</style>
+
+<header>
+    <h1>User List</h1>
+</header>
+<table>
+    <thead>
+        <tr>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Roles</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var userWithRoles in Model)
+        {
+            <tr>
+                <td>@userWithRoles.User.UserName</td>
+                <td>@userWithRoles.User.Email</td>
+                <td>@string.Join(", ", userWithRoles.Roles)</td>
+            </tr>
+        }
+    </tbody>
+</table>
+

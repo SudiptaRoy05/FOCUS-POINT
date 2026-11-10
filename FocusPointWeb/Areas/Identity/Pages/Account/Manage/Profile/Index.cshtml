@@ -1,0 +1,190 @@
+﻿@page
+@using FocusPoint.Utility;
+@model FocusPointWeb.Areas.Identity.Pages.Account.Manage.Profile.IndexModel
+@{
+}
+
+
+
+
+    <style>
+        /* Custom CSS */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .profile-picture {
+            background-color: #2c3e50;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+            .profile-picture img {
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+            }
+
+        .section-title {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .card {
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+        }
+
+        .card-title {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        
+
+            .btn-primary:hover {
+                background-color: #1c2940;
+                border-color: #1c2940;
+            }
+    </style>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <div class="profile-picture">
+                            <img src="@Model.ApplicationUser.ProfilePic" alt="Profile Picture">
+                        </div>
+                    
+                        <div class="col-12">
+                            <h3 class="card-title">@Model.ApplicationUser.Name</h3>
+                        </div>
+                    
+                    
+                    
+                        <form method="post" class="row" enctype="multipart/form-data" asp-page-handler="UploadProfilePic">
+                            <div class="form-group col-8 mt-3">
+                                <input type="file" name="profilePic" id="profilePic" class="form-control" />
+                            </div>
+                            <div class="col-4">
+                                <button type="submit" class="btn btn-primary mt-3">Upload</button>
+                            </div>
+
+                        </form>
+                    
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                    <div class="row pb-2">
+                        <div class="col-6">
+                            <h4>Update Your Profile:</h4>
+                        </div>
+                        <div class="col-6 text-end">
+                            @if (User.Identity.Name == Model.ApplicationUser.UserName)
+                            {
+                                <a asp-page="/Account/Manage/Profile/Edit" class="btn btn-primary">Update Profile</a>
+                            }
+                        </div>
+                    </div>
+                        <div class="card">
+                            <h5 class="card-header section-title">User Details</h5>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    <strong>Email:</strong> @Model.ApplicationUser.Email
+                                </li>
+                                <li class="list-group-item">
+                                    <strong>Address:</strong> @Model.ApplicationUser.Address
+                                </li>
+                                <li class="list-group-item">
+                                    <strong>City:</strong> @Model.ApplicationUser.City
+                                </li>
+                                <li class="list-group-item">
+                                    <strong>District:</strong> @Model.ApplicationUser.District
+                                </li>
+                                <li class="list-group-item">
+                                    <strong>Postal Code:</strong> @Model.ApplicationUser.PostalCode
+                                </li>
+                                @if (!string.IsNullOrEmpty(Model.ApplicationUser.SocialLink1))
+                                {
+                                    <li class="list-group-item">
+                                        <strong>Facebook:</strong>
+                                        <a href="@Model.ApplicationUser.SocialLink1" target="_blank">@Model.ApplicationUser.SocialLink1</a>
+                                    </li>
+                                }
+                                @if (!string.IsNullOrEmpty(Model.ApplicationUser.SocialLink2))
+                                {
+                                    <li class="list-group-item">
+                                        <strong>Instagram:</strong>
+                                        <a href="@Model.ApplicationUser.SocialLink2" target="_blank">@Model.ApplicationUser.SocialLink2</a>
+                                    </li>
+                                }
+                                @if (!string.IsNullOrEmpty(Model.ApplicationUser.SocialLink3))
+                                {
+                                    <li class="list-group-item">
+                                        <strong>Website or Another:</strong>
+                                        <a href="@Model.ApplicationUser.SocialLink3" target="_blank">@Model.ApplicationUser.SocialLink3</a>
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        @if (User.IsInRole(SD.Role_Photographer))
+        {
+            <div class="col-md-7">
+                <div class="mb-4">
+                    <h2 class="section-title">Photos</h2>
+                    <div class="row">
+                        @foreach (var photo in Model.AllMediaItems)
+                        {
+                            <div class="col-md-3 mb-4">
+                                <div class="card">
+                                    <img src="@photo.Thumbnail1" class="card-img-top" alt="Photograph">
+                                    <div class="card-body">
+                                        <h5 class="card-title">@photo.FileName</h5>
+                                        <!-- You can add more details about each photo if needed -->
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+                <div>
+                    <h2 class="section-title">Packages</h2>
+                    <div class="row">
+                        @foreach (var package in Model.AllPackeges)
+                        {
+                            <div class="col-md-3 mb-4">
+                                <div class="card">
+                                    <img src="@package.FileUrl" class="card-img-top" alt="Package Image">
+                                    <div class="card-body">
+                                        <h5 class="card-title">@package.Name</h5>
+                                        <!-- You can add more details about each package if needed -->
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+       
+        }
+        
+    </div>

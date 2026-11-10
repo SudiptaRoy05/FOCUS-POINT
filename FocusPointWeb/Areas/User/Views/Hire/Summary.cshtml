@@ -1,0 +1,138 @@
+﻿@model FocusPoint.Models.ViewModel.HireVM
+
+
+
+<form method="post">
+	<br />
+	<div class="container">
+		<div class="card shadow border-0">
+
+			<div class="card-header bg-primary bg-gradient text-light ml-0 py-4">
+				<div class="row px-4">
+					<div class="col-6">
+						<h5 class="pt-2 text-white">
+							Booking Photographer
+						</h5>
+					</div>
+					<div class="col-6 text-end">
+						<a asp-action="Index" class="btn btn-outline-danger btn-sm">Back to Cart</a>
+					</div>
+				</div>
+			</div>
+			<div class="card-body">
+				<div class="container rounded p-2">
+					<div class="row">
+						<div class="col-12 col-lg-6 pb-4">
+							<div class="row">
+								<h4 class="d-flex justify-content-between align-items-center mb-3">
+									<span class="text-info">User Details:</span>
+								</h4>
+							</div>
+							<div class="row my-1">
+								<div class="col-3">
+									<label>Name</label>
+								</div>
+								<div class="col-9">
+									<input asp-for="BookingHeder.Name"  class="form-control" />
+								<span asp-validation-for="BookingHeder.Name" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="row my-1">
+								<div class="col-3">
+									<label>Phone</label>
+								</div>
+								<div class="col-9">
+								<input asp-for="BookingHeder.PhoneNumber" class="form-control" />
+								<span asp-validation-for="BookingHeder.PhoneNumber" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="row my-1">
+								<div class="col-3">
+									<label>Address</label>
+								</div>
+								<div class="col-9">
+								<input asp-for="BookingHeder.Address" class="form-control" />
+								<span asp-validation-for="BookingHeder.Address" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="row my-1">
+								<div class="col-3">
+									<label>City</label>
+								</div>
+								<div class="col-9">
+								<input asp-for="BookingHeder.City" class="form-control" />
+								<span asp-validation-for="BookingHeder.City" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="row my-1">
+								<div class="col-3">
+									<label>District</label>
+								</div>
+								<div class="col-9">
+								<input asp-for="BookingHeder.District" class="form-control" />
+								<span asp-validation-for="BookingHeder.District" class="text-danger"></span>
+								</div>
+							</div>
+							<div class="row my-1">
+								<div class="col-3">
+									<label>Postal Code</label>
+								</div>
+								<div class="col-9">
+								<input asp-for="BookingHeder.PostalCOde" class="form-control" />
+								<span asp-validation-for="BookingHeder.PostalCOde" class="text-danger"></span>
+								</div>
+							</div>
+							
+						</div>
+						<div class="col-12 col-lg-5 offset-lg-1">
+							<h4 class="d-flex justify-content-between align-items-center mb-3">
+								<span class="text-info">Booking Summary:</span>
+							</h4>
+							<ul class="list-group mb-3">
+								 @foreach(var details in Model.ListHire){
+								<li class="list-group-item d-flex justify-content-between">
+									<div>
+										<h6 class="my-0">@details.Packege.Name</h6>
+										 <small class="text-muted">Days: @details.Days</small>
+									</div>
+									<span class="text-muted">@((details.Packege.Price * details.Days).ToString(".00")) </span>
+								</li>
+									<li class="list-group-item d-flex justify-content-between">
+										<div>
+											<span>Start Date</span>
+											<h6 class="my-0">@details.StartDate</h6>
+											@* <small class="text-muted">Quantity: @details.Count</small> *@
+										</div>
+										<div>
+											<span>End Date</span>
+											<h6 class="my-0">@details.StartDate.AddDays(details.Days)</h6>
+											@* <small class="text-muted">Quantity: @details.Count</small> *@
+										</div>
+										
+									</li>
+								}
+								<li class="list-group-item d-flex justify-content-between bg-light">
+									<small class="text-info">Total (BDT)</small>
+									<strong class="text-info">@Model.BookingHeder.BookingTotal.ToString(".00")</strong>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card-footer">
+				<div class="row">
+					@* <div class="col-12 col-md-8 pt-2">
+						<p style="color:maroon; font-size:14px;">
+							 Date:
+							 @DateTime.Now
+						</p>
+					</div> *@
+					<div class="col-12 col-md-4">
+						<button type="submit" value="Place Order" class="btn btn-primary form-control">Place Order</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</form>

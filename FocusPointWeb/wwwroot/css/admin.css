@@ -1,0 +1,62 @@
+﻿#admin-panel {
+  display: flex;
+  min-height: 100vh;
+  height: 100%;
+  background-color: #e9ecef;
+  
+  #menu {
+    width: 300px;
+    padding: 2rem;
+    
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      
+      li {
+        padding: 1rem 0;   
+        font-size: 1.25rem;
+      }
+      a {
+        color: #212529;
+      }
+    }
+  }
+  #content {
+    flex: auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    
+    .page-title {
+      margin-bottom: 1.5rem;
+    }
+  }
+
+}
+
+/* Custom CSS for the menu */
+#menu {
+    background-color: #333; /* Background color */
+    color: #fff; /* Text color */
+    width: 250px; /* Adjust the width as needed */
+    padding: 20px;
+}
+
+    #menu ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    #menu li {
+        margin-bottom: 10px;
+    }
+
+    #menu a {
+        text-decoration: none;
+        color: #fff; /* Link color */
+        display: block;
+    }
+
+        #menu a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }

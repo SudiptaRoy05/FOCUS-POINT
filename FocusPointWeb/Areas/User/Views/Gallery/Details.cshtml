@@ -1,0 +1,41 @@
+﻿@model ShoppingCart;
+@{
+    ViewData["Title"] = "Details";
+}
+<form class="pb-5" method="post" style="color: maroon;">
+    <input hidden asp-for="MediaItemId" />
+    <div class="container mt-5">
+        <div class="row card-header mx-2 my-2">
+            <div class="col-md-8">
+                <img src="@Model.MediaItem.Thumbnail2" class="img-fluid rounded">
+            </div>
+
+            <div class="col-md-4 card-body">
+                <h4 class="mb-3 text-primary">Name: @Model.MediaItem.FileName</h4>
+                
+                <p class="text-primary"><strong>Upload Date: </strong>@Model.MediaItem.UploadDate</p>
+                <p class="text-primary"><strong>Price: </strong>@Model.MediaItem.Price.ToString("0.00") BDT</p>
+
+                <div class="">
+                    <p class="">
+                        <strong class="text-primary">Description: </strong> <span class="text-primary">@Html.Raw(Model.MediaItem.Description)</span>
+                    </p>
+                </div>
+              @*   <p class="mb-3 text-primary">IsPublic: @Model.MediaItem.IsPublic</p>
+                <p class="mb-3 text-primary">Media Type: @Model.MediaItem.Type</p>
+                <p class="pt-1 text-primary"><strong>Count: </strong> <input disabled asp-for="Count" /></p>
+ *@
+                
+            </div>
+        </div>
+        <div class=" row mt-3 mx-1">
+            <div class="col-6 ">
+                <button class="btn btn-primary form-control">Add to Cart</button>
+            </div>
+            <div class="col-6 ">
+                <a asp-action="Index" asp-controller="Gallery" class="btn btn-secondary form-control">Back to List</a>
+            </div>
+        </div>
+    </div>
+</form>
+

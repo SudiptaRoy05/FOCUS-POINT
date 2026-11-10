@@ -1,0 +1,83 @@
+﻿@page
+@model FocusPointWeb.Areas.Identity.Pages.Account.Manage.Profile.EditModel
+@{
+}
+
+
+
+<div class="row mx-5">
+    <div class="col-md-12">
+        <div class="text-center py-2">
+            <h3 class="text-primary">Update Your Profile</h3>
+        </div>
+
+        <form id="profile-form" class="row" method="post" asp-route-handler="Save">
+            <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+
+            <div class="form-floating mb-3 col-6">
+                <input asp-for="Input.Name" class="form-control" placeholder="Please choose your username." />
+                <label asp-for="Input.Name" class="form-label"></label>
+            </div>
+
+            <div class="form-floating mb-3 col-6">
+                <input asp-for="Input.PhoneNumber" class="form-control" placeholder="Please enter your phone number." />
+                <label asp-for="Input.PhoneNumber" class="form-label"></label>
+                <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Input.Bio"></label>
+                <textarea asp-for="Input.Bio" class="form-control" rows="3"></textarea>
+                <span asp-validation-for="Input.Bio" class="text-danger"></span>
+            </div>
+
+            <div class="form-floating mb-3 col-6">
+                <input asp-for="Input.Address" class="form-control" placeholder="Please enter your address." />
+                <label asp-for="Input.Address" class="form-label"></label>
+                <span asp-validation-for="Input.Address" class="text-danger"></span>
+            </div>
+
+            <div class="form-floating mb-3 col-6">
+                <input asp-for="Input.City" class="form-control" placeholder="Please enter your city." />
+                <label asp-for="Input.City" class="form-label"></label>
+                <span asp-validation-for="Input.City" class="text-danger"></span>
+            </div>
+
+            <div class="form-floating mb-3 col-6">
+                <input asp-for="Input.District" class="form-control" placeholder="Please enter your district." />
+                <label asp-for="Input.District" class="form-label"></label>
+                <span asp-validation-for="Input.District" class="text-danger"></span>
+            </div>
+
+            <div class="form-floating mb-3 col-6">
+                <input asp-for="Input.PostalCode" class="form-control" placeholder="Please enter your postal code." />
+                <label asp-for="Input.PostalCode" class="form-label"></label>
+                <span asp-validation-for="Input.PostalCode" class="text-danger"></span>
+            </div>
+
+            <div class="form-floating mb-3 col-6">
+                <input asp-for="Input.SocialLink1" class="form-control" placeholder="Please enter your social link." />
+                <label asp-for="Input.SocialLink1" class="form-label"></label>
+                <span asp-validation-for="Input.SocialLink1" class="text-danger"></span>
+            </div>
+
+            <div class="form-floating mb-3 col-6">
+                <input asp-for="Input.SocialLink2" class="form-control" placeholder="Please enter your social link." />
+                <label asp-for="Input.SocialLink2" class="form-label"></label>
+                <span asp-validation-for="Input.SocialLink2" class="text-danger"></span>
+            </div>
+
+            <div class="form-floating mb-3 col-6">
+                <input asp-for="Input.SocialLink3" class="form-control" placeholder="Please enter your social link." />
+                <label asp-for="Input.SocialLink3" class="form-label"></label>
+                <span asp-validation-for="Input.SocialLink3" class="text-danger"></span>
+            </div>
+
+            <button id="update-profile-button" type="submit" class="w-100 btn btn-lg btn-primary">Save</button>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

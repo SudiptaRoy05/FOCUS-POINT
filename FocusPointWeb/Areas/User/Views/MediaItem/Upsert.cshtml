@@ -1,0 +1,138 @@
+﻿@model FocusPoint.Models.ViewModel.MediaVM
+
+<form method="post" class="mb-4 pb-5 table-bordered" asp-action="Upsert" enctype="multipart/form-data">
+    <input asp-for="MediaItem.Id" hidden />
+    <input asp-for="MediaItem.FileUrl" hidden />
+
+    <div class="row border-2">
+        <div class="col-12 col-md-9">
+            <div class="border-2 p-3 mt-4">
+                <h3 class="text-primary text-center">
+                    @(Model.MediaItem.Id != 0 ? "Update Media Item" : "Upload Media Item")
+                </h3>
+
+                <div class="row mb-3">
+                    <div class="mb-3 col-6">
+                        <label asp-for="MediaItem.FileName"></label>
+                        <input asp-for="MediaItem.FileName" class="form-control" />
+                        <span asp-validation-for="MediaItem.FileName" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3 col-6">
+                        <label asp-for="MediaItem.FileUrl"></label>
+                        <input type="file" id="uploadBox" asp-for="MediaItem.FileUrl" name="file" class="form-control" />
+                    </div>
+                </div>
+                
+
+                <div class="mb-3">
+                    <label asp-for="MediaItem.Description"></label>
+                    <textarea asp-for="MediaItem.Description" class="form-control" rows="3"></textarea>
+                    <span asp-validation-for="MediaItem.Description" class="text-danger"></span>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="MediaItem.Price"></label>
+                        <input asp-for="MediaItem.Price" class="form-control" />
+                        <span asp-validation-for="MediaItem.Price" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="MediaItem.Type"></label>
+                        <select asp-for="MediaItem.Type" asp-items="@Model.MediaType" class="form-control">
+                            <option disabled selected>--Select Media Type--</option>
+                        </select>
+                        <span asp-validation-for="MediaItem.Type" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="mb-3 form-control col-md-6">
+                        <label class="form-check-label">
+                            <input asp-for="MediaItem.IsPublic" type="checkbox" class="form-check-input" />
+                            Is Public
+                        </label>
+                    </div>
+                   @*  <div class="col-md-6 mb-3">
+                        <label asp-for="MediaItem.UploadDate"></label>
+                        <input asp-for="MediaItem.UploadDate" class="form-control" type="datetime-local" />
+                        <span asp-validation-for="MediaItem.UploadDate" class="text-danger"></span>
+                    </div> *@
+                </div>
+                
+
+
+                <div class="row mb-3">
+                    <div class="mb-3 col-6">
+                        <label asp-for="MediaItem.CategoryId"></label>
+                        <select asp-for="MediaItem.CategoryId" asp-items="@Model.CategoryList" class="form-control">
+                            <option disabled selected>--Select Category--</option>
+                        </select>
+                        <span asp-validation-for="MediaItem.CategoryId" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3 col-6">
+                        <label asp-for="MediaItem.CompositionId"></label>
+                        <select asp-for="MediaItem.CompositionId" asp-items="@Model.CompositionList" class="form-control">
+                            <option disabled selected>--Select Composition--</option>
+                        </select>
+                        <span asp-validation-for="MediaItem.CompositionId" class="text-danger"></span>
+                    </div>
+                </div>
+                
+
+                <div class="text-center">
+                    @if (Model.MediaItem.Id != 0)
+                    {
+                        <button class="btn btn-success" type="submit">Update MediaItem</button>
+                    }
+                    else
+                    {
+                        <button class="btn btn-success" type="submit" onclick="return ValidateInput()">Upload MediaItem</button>
+                    }
+                    <a asp-action="Index" asp-controller="MediaItem" class="btn btn-secondary ml-2">Back To List</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-3">
+            <div class="mt-4">
+                @if (Model.MediaItem.Type == 0)
+                {
+                    <img src="@Model.MediaItem.Thumbnail1" width="100%" style="border-radius: 5px; border: 1px solid #bbb9b9" />
+                }
+                else
+                {
+                    <video width="100%" style="border-radius: 5px; border: 1px solid #bbb9b9" controls>
+                        <source src="@Model.MediaItem.FileUrl">
+                    </video>
+                }
+            </div>
+        </div>
+    </div>
+</form>
+
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+    <script>
+        tinymce.init({
+            selector: 'textarea',
+            plugins: 'anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount',
+            toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table | align lineheight | numlist bullist indent outdent | emoticons charmap | removeformat',
+        });
+
+        function ValidateInput() {
+            if (document.getElementById("uploadBox").value === "") {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Please upload an Images!'
+                });
+                return false;
+            }
+            return true;
+        }
+    </script>
+}

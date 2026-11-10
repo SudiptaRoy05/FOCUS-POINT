@@ -1,0 +1,78 @@
+﻿@model IEnumerable<ApplicationUser>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        .user-container {
+            border: 1px solid #ddd;
+            margin: 20px;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .user-image {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-right: 20px;
+            background-color: #333;
+        }
+
+        .user-details {
+            flex-grow: 1;
+        }
+
+        .user-name {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .user-email {
+            color: #777;
+        }
+
+        .view-profile-link {
+            text-decoration: none;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-control bg-primary mt-3">
+        <h2 class="text-center text-white text-uppercase  py-3">Photographers</h2>
+    </div>
+    <div class="py-2">
+        <form class="row" method="get" asp-controller="Photographer" asp-action="Search">
+            <div class="col-6">
+                <input class="form-control" type="text" name="query" placeholder="Enter name or email" />
+            </div>
+            <div class="col-6">
+                <button class="form-control btn btn-primary" type="submit">Search</button>
+            </div>
+        </form>
+    </div>
+    @foreach (var user in Model)
+    {
+        <div class="user-container">
+            <div class="user-image">
+                <!-- You can display the user's profile picture here -->
+                <img src="@user.ProfilePic" alt="Profile Picture" width="80" height="80">
+            </div>
+            <div class="user-details">
+                <div class="user-name">@user.Name</div>
+                <div class="user-email">@user.Email</div>
+            </div>
+            <a asp-controller="Photographer" asp-action="Profile" asp-route-id="@user.Id" class="btn btn-primary">Profile</a>
+        </div>
+
+    }
+</body>
+</html>

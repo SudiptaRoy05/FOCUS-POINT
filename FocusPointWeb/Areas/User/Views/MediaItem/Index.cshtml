@@ -1,0 +1,27 @@
+﻿<div class="row mt-4">
+    <div class="col-6">
+        <h3 class="text-primary">MediaItem List</h3>
+    </div>
+    <div class="col-6 text-end">
+        <a asp-action="Upsert" asp-controller="MediaItem" class="btn btn-primary"><i class="bi bi-plus-circle"></i>&nbsp;Upload MediaItem</a>
+    </div>
+</div>
+<br />
+<div class="container">
+    <table id="tblData" class="table table-striped table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>File Name</th>
+                <th>Price</th>
+                <th>Composition</th>
+                <th>Category</th>
+                
+                <th>Actions</th>
+            </tr>
+        </thead>
+    </table>
+</div>
+
+@section Scripts{
+    <script src="~/js/mediaitem.js"></script>
+}

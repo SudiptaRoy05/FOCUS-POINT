@@ -1,0 +1,48 @@
+﻿@model List<MediaItem>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Media Items</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border: 1px solid #ddd;
+        }
+
+        .content {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Total Media Items Uploaded</h1>
+    </header>
+    <div class="container">
+        <div class="content">
+            <p>Total Media Items: @ViewBag.TotalMediaItemCount</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,118 @@
+﻿@model FocusPoint.Models.ViewModel.PackegeVM
+<form method="post" class="mb-4 pb-5 table-bordered" asp-action="Upsert" enctype="multipart/form-data">
+    <input asp-for="Packege.Id" hidden />
+    <input asp-for="Packege.FileUrl" hidden />
+
+    <div class="row border-2">
+        <div class="col-12 col-md-9">
+            <div class="border-2 p-3 mt-4">
+                <h3 class="text-primary text-center">
+                    @(Model.Packege.Id != 0 ? "Update Packege" : "Create Packege")
+                </h3>
+
+                <div class="row mb-3">
+                    <div class="mb-3 col-6">
+                        <label asp-for="Packege.Name"></label>
+                        <input asp-for="Packege.Name" class="form-control" />
+                        <span asp-validation-for="Packege.Name" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3 col-6">
+                        <label asp-for="Packege.FileUrl"></label>
+                        <input type="file" id="uploadBox" asp-for="Packege.FileUrl" name="file" class="form-control" />
+                    </div>
+                </div>
+
+
+                <div class="mb-3">
+                    <label asp-for="Packege.Description"></label>
+                    <textarea asp-for="Packege.Description" class="form-control" rows="3"></textarea>
+                    <span asp-validation-for="Packege.Description" class="text-danger"></span>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="Packege.Price"></label>
+                        <input asp-for="Packege.Price" class="form-control" />
+                        <span asp-validation-for="Packege.Price" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="Packege.Price3"></label>
+                        <input asp-for="Packege.Price3" class="form-control" />
+                        <span asp-validation-for="Packege.Price3" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="Packege.Price6"></label>
+                        <input asp-for="Packege.Price6" class="form-control" />
+                        <span asp-validation-for="Packege.Price6" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="Packege.Price10"></label>
+                        <input asp-for="Packege.Price10" class="form-control" />
+                        <span asp-validation-for="Packege.Price10" class="text-danger"></span>
+                    </div>
+
+                </div>
+                <div class="row mb-3">
+                  
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="Packege.CreatedDateTime"></label>
+                        <input asp-for="Packege.CreatedDateTime" class="form-control" type="datetime-local" />
+                        <span asp-validation-for="Packege.CreatedDateTime" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3 col-6">
+                        <label asp-for="Packege.CategoryId"></label>
+                        <select asp-for="Packege.CategoryId" asp-items="@Model.CategoryList" class="form-control">
+                            <option disabled selected>--Select Category--</option>
+                        </select>
+                        <span asp-validation-for="Packege.CategoryId" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    @if (Model.Packege.Id != 0)
+                    {
+                        <button class="btn btn-success" type="submit">Update Packege</button>
+                    }
+                    else
+                    {
+                        <button class="btn btn-success" type="submit" onclick="return ValidateInput()">Create Packege</button>
+                    }
+                    <a asp-action="Index" asp-controller="Packege" class="btn btn-secondary ml-2">Back To List</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-3">
+            <div class="mt-4">
+                <img src="@Model.Packege.FileUrl" width="100%" style="border-radius: 5px; border: 1px solid #bbb9b9" />
+            </div>
+        </div>
+    </div>
+</form>
+
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+    <script>
+        tinymce.init({
+            selector: 'textarea',
+            plugins: 'anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount',
+            toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table | align lineheight | numlist bullist indent outdent | emoticons charmap | removeformat',
+        });
+
+        function ValidateInput() {
+            if (document.getElementById("uploadBox").value === "") {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Please upload an Images!'
+                });
+                return false;
+            }
+            return true;
+        }
+    </script>
+}

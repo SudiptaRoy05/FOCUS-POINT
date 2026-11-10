@@ -1,0 +1,64 @@
+﻿@model Hire
+@{
+    ViewData["Title"] = "Details";
+}
+
+<form method="post">
+    <input hidden asp-for="PackegesId" />
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 mb-1">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title text-primary">@Model.Packege.Name</h4>
+                        <p class="card-text text-primary"><strong>Upload Date:</strong> @Model.Packege.CreatedDateTime</p>
+                    </div>
+                    <img src="@Model.Packege.FileUrl" class="card-img-top" alt="@Model.Packege.Name">
+
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title text-primary">Package Details</h4>
+                        <p class="card-text text-primary"><strong>Photographer Name:</strong> @Model.Packege.ApplicationUser</p>
+
+                        <p class="card-text text-primary"><strong>Price:</strong> @Model.Packege.Price.ToString("0.00") BDT</p>
+                        <div class="d-flex justify-content-between">
+                            <p class="card-text text-primary"><strong>3Days-6Days:</strong> @Model.Packege.Price3.ToString("0.00") BDT</p>
+                            <p class="card-text text-primary"><strong>7Days-10Days:</strong> @Model.Packege.Price6.ToString("0.00") BDT</p>
+                            <p class="card-text text-primary"><strong>10Days+:</strong> @Model.Packege.Price10.ToString("0.00") BDT</p>
+                        </div>
+                        <p class="card-text text-primary"><strong>Description:</strong></p>
+                        <p class="card-text text-primary">@Html.Raw(Model.Packege.Description)</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <strong class="text-primary">Enter day here:</strong>
+                                <input asp-for="@Model.Days" class="form-control" />
+                                <span asp-validation-for="@Model.Days"></span>
+                            </div>
+                            <div>
+                                <label for="selectedDate">Select a Date:</label>
+                                <input type="date" id="selectedDate" name="selectedDate">
+                            </div>
+                           @*  <div>
+                                <strong class="text-primary">Enter EndDate:</strong>
+                                <input asp-for="@Model.EndDate" class="form-control" />
+                            </div> *@
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class=" row mt-3 mx-1">
+            <div class="col-6 ">
+                <button type="submit" value="Hire" class="btn btn-primary form-control">Booking</button>
+            </div>
+            <div class="col-6 ">
+                <a asp-action="Index" asp-controller="PhotographyPackege" class="btn btn-secondary form-control">Back to list</a>
+            </div>
+        </div>
+    </div>
+</form>

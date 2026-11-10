@@ -1,0 +1,509 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\FocusPointWeb.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FocusPointWeb.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\DP\\204e2403-9237-44b2-a371-5f3c19446429_profile.jpg",
+      "PackagePath": "staticwebassets\\Media\\DP\\204e2403-9237-44b2-a371-5f3c19446429_profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\DP\\24311576-1bf0-4248-a640-8b3291d2c00e_profile.jpg",
+      "PackagePath": "staticwebassets\\Media\\DP\\24311576-1bf0-4248-a640-8b3291d2c00e_profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\DP\\274166f9-0a90-4649-a6bd-24786b5428ca_profile.jpg",
+      "PackagePath": "staticwebassets\\Media\\DP\\274166f9-0a90-4649-a6bd-24786b5428ca_profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\DP\\4b1c69d0-f903-47e1-9f39-d2e7963d4244_profile.jpg",
+      "PackagePath": "staticwebassets\\Media\\DP\\4b1c69d0-f903-47e1-9f39-d2e7963d4244_profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\DP\\51539bc7-d1b8-4db0-b5e0-386087768f3b_profile.jpg",
+      "PackagePath": "staticwebassets\\Media\\DP\\51539bc7-d1b8-4db0-b5e0-386087768f3b_profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\DP\\57909bfe-e9f4-45f0-88bb-09cb4f9cd22a_profile.jpg",
+      "PackagePath": "staticwebassets\\Media\\DP\\57909bfe-e9f4-45f0-88bb-09cb4f9cd22a_profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\DP\\5be160b4-32bb-495f-8c74-91df0d6fd8c9.jpg",
+      "PackagePath": "staticwebassets\\Media\\DP\\5be160b4-32bb-495f-8c74-91df0d6fd8c9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\DP\\77471fbd-46d7-4461-9350-f689c4109e2d.jpg",
+      "PackagePath": "staticwebassets\\Media\\DP\\77471fbd-46d7-4461-9350-f689c4109e2d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\DP\\78c827d2-4269-46ae-9708-38f9b00bb218_profile.jpg",
+      "PackagePath": "staticwebassets\\Media\\DP\\78c827d2-4269-46ae-9708-38f9b00bb218_profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\DP\\815810ee-705f-4155-8d92-b5d73981ce1f_profile.jpg",
+      "PackagePath": "staticwebassets\\Media\\DP\\815810ee-705f-4155-8d92-b5d73981ce1f_profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\DP\\a2286e64-c3ed-4e54-973b-7a7d8efba014_profile.jpg",
+      "PackagePath": "staticwebassets\\Media\\DP\\a2286e64-c3ed-4e54-973b-7a7d8efba014_profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\DP\\a26a8d06-70c0-49d2-988a-374d229014d1_profile.jpg",
+      "PackagePath": "staticwebassets\\Media\\DP\\a26a8d06-70c0-49d2-988a-374d229014d1_profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\DP\\a8203a0f-0783-4ad4-a0ee-afdfd39b47f8_profile.jpg",
+      "PackagePath": "staticwebassets\\Media\\DP\\a8203a0f-0783-4ad4-a0ee-afdfd39b47f8_profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\DP\\b45f6975-3f01-418f-9886-e7e1cc271e2c_profile.jpg",
+      "PackagePath": "staticwebassets\\Media\\DP\\b45f6975-3f01-418f-9886-e7e1cc271e2c_profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\DP\\ba7e6e22-55ee-4e80-936b-3f01de6af047_profile.jpg",
+      "PackagePath": "staticwebassets\\Media\\DP\\ba7e6e22-55ee-4e80-936b-3f01de6af047_profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\DP\\d5cb6a18-f578-4a10-a726-9e9cdda5d4ea_profile.jpg",
+      "PackagePath": "staticwebassets\\Media\\DP\\d5cb6a18-f578-4a10-a726-9e9cdda5d4ea_profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\DP\\d9906165-067c-4bde-8a65-3cf2a7db0b13.jpg",
+      "PackagePath": "staticwebassets\\Media\\DP\\d9906165-067c-4bde-8a65-3cf2a7db0b13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\DP\\e5d27735-f06b-4d06-b520-fb22882f131a_profile.jpg",
+      "PackagePath": "staticwebassets\\Media\\DP\\e5d27735-f06b-4d06-b520-fb22882f131a_profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\DP\\fcbab033-5279-48e5-9ea7-11b22961a34f_profile.jpg",
+      "PackagePath": "staticwebassets\\Media\\DP\\fcbab033-5279-48e5-9ea7-11b22961a34f_profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\DP\\fd67eedc-59c6-47a4-8758-6c784b67361d_profile.jpg",
+      "PackagePath": "staticwebassets\\Media\\DP\\fd67eedc-59c6-47a4-8758-6c784b67361d_profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\Gallery\\029d9705-1f5b-4233-8744-e58c1923397e.jpg",
+      "PackagePath": "staticwebassets\\Media\\Gallery\\029d9705-1f5b-4233-8744-e58c1923397e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\Gallery\\029d9705-1f5b-4233-8744-e58c1923397e_thumbnail1.jpg",
+      "PackagePath": "staticwebassets\\Media\\Gallery\\029d9705-1f5b-4233-8744-e58c1923397e_thumbnail1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\Gallery\\029d9705-1f5b-4233-8744-e58c1923397e_thumbnail2.jpg",
+      "PackagePath": "staticwebassets\\Media\\Gallery\\029d9705-1f5b-4233-8744-e58c1923397e_thumbnail2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\Gallery\\1ccf3a09-8662-4572-964a-24e879708e6a.jpg",
+      "PackagePath": "staticwebassets\\Media\\Gallery\\1ccf3a09-8662-4572-964a-24e879708e6a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\Gallery\\1ccf3a09-8662-4572-964a-24e879708e6a_thumbnail1.jpg",
+      "PackagePath": "staticwebassets\\Media\\Gallery\\1ccf3a09-8662-4572-964a-24e879708e6a_thumbnail1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\Gallery\\1ccf3a09-8662-4572-964a-24e879708e6a_thumbnail2.jpg",
+      "PackagePath": "staticwebassets\\Media\\Gallery\\1ccf3a09-8662-4572-964a-24e879708e6a_thumbnail2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\Gallery\\431af472-e35e-49d2-a452-a109af678b69.jpg",
+      "PackagePath": "staticwebassets\\Media\\Gallery\\431af472-e35e-49d2-a452-a109af678b69.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\Gallery\\431af472-e35e-49d2-a452-a109af678b69_thumbnail1.jpg",
+      "PackagePath": "staticwebassets\\Media\\Gallery\\431af472-e35e-49d2-a452-a109af678b69_thumbnail1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\Gallery\\431af472-e35e-49d2-a452-a109af678b69_thumbnail2.jpg",
+      "PackagePath": "staticwebassets\\Media\\Gallery\\431af472-e35e-49d2-a452-a109af678b69_thumbnail2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\Gallery\\5a40d7f6-b6e9-4d5b-bca3-a60a6586b613.jpg",
+      "PackagePath": "staticwebassets\\Media\\Gallery\\5a40d7f6-b6e9-4d5b-bca3-a60a6586b613.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\Gallery\\5a40d7f6-b6e9-4d5b-bca3-a60a6586b613_thumbnail1.jpg",
+      "PackagePath": "staticwebassets\\Media\\Gallery\\5a40d7f6-b6e9-4d5b-bca3-a60a6586b613_thumbnail1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\Gallery\\5a40d7f6-b6e9-4d5b-bca3-a60a6586b613_thumbnail2.jpg",
+      "PackagePath": "staticwebassets\\Media\\Gallery\\5a40d7f6-b6e9-4d5b-bca3-a60a6586b613_thumbnail2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\Gallery\\7aeda8d4-4587-465b-b829-00535f2e4121.jpg",
+      "PackagePath": "staticwebassets\\Media\\Gallery\\7aeda8d4-4587-465b-b829-00535f2e4121.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\Gallery\\7aeda8d4-4587-465b-b829-00535f2e4121_thumbnail1.jpg",
+      "PackagePath": "staticwebassets\\Media\\Gallery\\7aeda8d4-4587-465b-b829-00535f2e4121_thumbnail1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\Gallery\\7aeda8d4-4587-465b-b829-00535f2e4121_thumbnail2.jpg",
+      "PackagePath": "staticwebassets\\Media\\Gallery\\7aeda8d4-4587-465b-b829-00535f2e4121_thumbnail2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\Gallery\\88cf01da-0f80-46d3-8687-fcafa48499f2.jpg",
+      "PackagePath": "staticwebassets\\Media\\Gallery\\88cf01da-0f80-46d3-8687-fcafa48499f2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\Gallery\\88cf01da-0f80-46d3-8687-fcafa48499f2_thumbnail1.jpg",
+      "PackagePath": "staticwebassets\\Media\\Gallery\\88cf01da-0f80-46d3-8687-fcafa48499f2_thumbnail1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\Gallery\\88cf01da-0f80-46d3-8687-fcafa48499f2_thumbnail2.jpg",
+      "PackagePath": "staticwebassets\\Media\\Gallery\\88cf01da-0f80-46d3-8687-fcafa48499f2_thumbnail2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\Gallery\\9b8053ce-5bc0-4933-b3e0-892ac8915fde.jpg",
+      "PackagePath": "staticwebassets\\Media\\Gallery\\9b8053ce-5bc0-4933-b3e0-892ac8915fde.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\Gallery\\9b8053ce-5bc0-4933-b3e0-892ac8915fde_thumbnail1.jpg",
+      "PackagePath": "staticwebassets\\Media\\Gallery\\9b8053ce-5bc0-4933-b3e0-892ac8915fde_thumbnail1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\Gallery\\9b8053ce-5bc0-4933-b3e0-892ac8915fde_thumbnail2.jpg",
+      "PackagePath": "staticwebassets\\Media\\Gallery\\9b8053ce-5bc0-4933-b3e0-892ac8915fde_thumbnail2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\Gallery\\cf607473-88ba-447b-9940-65d24a61485a.jpg",
+      "PackagePath": "staticwebassets\\Media\\Gallery\\cf607473-88ba-447b-9940-65d24a61485a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\Gallery\\cf607473-88ba-447b-9940-65d24a61485a_thumbnail1.jpg",
+      "PackagePath": "staticwebassets\\Media\\Gallery\\cf607473-88ba-447b-9940-65d24a61485a_thumbnail1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\Gallery\\cf607473-88ba-447b-9940-65d24a61485a_thumbnail2.jpg",
+      "PackagePath": "staticwebassets\\Media\\Gallery\\cf607473-88ba-447b-9940-65d24a61485a_thumbnail2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\Gallery\\fb303677-5788-4a82-a610-96b034a0d0e9.jpg",
+      "PackagePath": "staticwebassets\\Media\\Gallery\\fb303677-5788-4a82-a610-96b034a0d0e9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\Gallery\\fb303677-5788-4a82-a610-96b034a0d0e9_thumbnail1.jpg",
+      "PackagePath": "staticwebassets\\Media\\Gallery\\fb303677-5788-4a82-a610-96b034a0d0e9_thumbnail1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\Gallery\\fb303677-5788-4a82-a610-96b034a0d0e9_thumbnail2.jpg",
+      "PackagePath": "staticwebassets\\Media\\Gallery\\fb303677-5788-4a82-a610-96b034a0d0e9_thumbnail2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\Packege\\1756041a-dd56-4786-80c9-6fde4301a63e.jpg",
+      "PackagePath": "staticwebassets\\Media\\Packege\\1756041a-dd56-4786-80c9-6fde4301a63e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\Packege\\37fd7c9d-6a48-4b60-85cf-6f94445b26e3.jpg",
+      "PackagePath": "staticwebassets\\Media\\Packege\\37fd7c9d-6a48-4b60-85cf-6f94445b26e3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\Packege\\73c480de-eea2-491b-b0bd-3d19650389f7.jpg",
+      "PackagePath": "staticwebassets\\Media\\Packege\\73c480de-eea2-491b-b0bd-3d19650389f7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\Packege\\a0e4f399-7571-4e9d-ac28-07f5ccded101.jpg",
+      "PackagePath": "staticwebassets\\Media\\Packege\\a0e4f399-7571-4e9d-ac28-07f5ccded101.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\Packege\\a84bd629-51fe-4361-86d7-98f1de63c4a3.jpg",
+      "PackagePath": "staticwebassets\\Media\\Packege\\a84bd629-51fe-4361-86d7-98f1de63c4a3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\Packege\\dea71e98-5a1e-4264-8fac-fae1a4f43254.jpg",
+      "PackagePath": "staticwebassets\\Media\\Packege\\dea71e98-5a1e-4264-8fac-fae1a4f43254.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\Packege\\e8887295-deda-46a9-980c-0126c8afa61a.jpg",
+      "PackagePath": "staticwebassets\\Media\\Packege\\e8887295-deda-46a9-980c-0126c8afa61a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\Media\\Packege\\ee5854c7-a834-4e1b-8fea-e776d0206ac3.jpg",
+      "PackagePath": "staticwebassets\\Media\\Packege\\ee5854c7-a834-4e1b-8fea-e776d0206ac3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\css\\admin.css",
+      "PackagePath": "staticwebassets\\css\\admin.css"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\css\\bootWatch.css",
+      "PackagePath": "staticwebassets\\css\\bootWatch.css"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\js\\booking.js",
+      "PackagePath": "staticwebassets\\js\\booking.js"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\js\\mediaitem.js",
+      "PackagePath": "staticwebassets\\js\\mediaitem.js"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\js\\order.js",
+      "PackagePath": "staticwebassets\\js\\order.js"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\js\\packege.js",
+      "PackagePath": "staticwebassets\\js\\packege.js"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\balla\\source\\repos\\DEMO\\FocusPointWeb\\FocusPointWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.FocusPointWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.FocusPointWeb.props",
+      "PackagePath": "build\\FocusPointWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.FocusPointWeb.props",
+      "PackagePath": "buildMultiTargeting\\FocusPointWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.FocusPointWeb.props",
+      "PackagePath": "buildTransitive\\FocusPointWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
